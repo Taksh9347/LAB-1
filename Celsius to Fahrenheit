@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	float celsius,fahrenhit;
+	printf("Enter the temprature in fahrenhit \n");
+	scanf("%f",&fahrenhit);
+	celsius=(fahrenhit-32) * 5.0/9.0;
+	printf("\n %.2f fahrenhit = %.2f celsius",fahrenhit,celsius);
+	return 0;
+}
