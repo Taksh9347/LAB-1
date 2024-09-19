@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+int main()
+{
+	int HR,MIN,SEC,total_seconds;
+	printf("Enter the number of hours \n");
+	scanf("%d",&HR);
+	printf("Enter the number of minutes \n");
+	scanf("%d",&MIN);
+	printf("Enter the number of seconds \n");
+	scanf("%d",&SEC);
+	total_seconds = (HR*3600)+(MIN*60)+(SEC);
+	printf(" %d hours,%d minutes,%d seconds is equal to %d seconds \n", HR, MIN, SEC, total_seconds);
+	return 0;
+}
