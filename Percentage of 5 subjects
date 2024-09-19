@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{	
+int total;
+float phy,c,m,e,comp,per;
+// entering marks obtained in each subject out of 100
+	printf("Enter the marks obtained in physics \n");
+	scanf("%f",&phy);
+		printf("Enter the marks obtained in chemistry \n");
+	scanf("%f",&c);
+		printf("Enter the marks obtained in maths \n");
+	scanf("%f",&m);
+		printf("Enter the marks obtained in english \n");
+	scanf("%f",&e);
+		printf("Enter the marks obtained in computer \n");
+	scanf("%f",&comp);
+	total=phy+c+m+e+comp;
+	printf("The total marks are %d \n",total);
+	per=total/5;
+	printf("Your percentage is %.2f \n",per);
+	return 0;
+	
+}
