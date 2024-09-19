@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	int p,c,m,e,comp,sum;
+	double per;
+	char divison;
+	printf("Enter the marks obtained in physics , maths , chemistry , english and computer \n");
+	scanf("%d%d%d%d%d", &p, &c, &m, &e, &comp);
+	sum = p+c+m+e+comp;
+	per=sum/5;
+	if(per>=90)
+	{
+		divison = 'A';
+	}
+	else if(80<per<90)
+	{
+		divison = 'B';
+	}
+	else if(70<per<80)
+	{
+		divison = 'C';
+	}
+	else if(60<per<70)
+	{
+		divison = 'D';
+	}
+	printf("Grade obtained is %c \n", divison);
+	return 0;
+}
